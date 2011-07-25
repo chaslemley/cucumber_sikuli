@@ -1,5 +1,7 @@
 require 'java'
 require 'sikuli'
 
-Sikuli.addImagePath "#{Dir.pwd}/features/images/"
-Sikuli.logging = false
+Sikuli::Config.run do |config|
+  config.image_path = "#{Dir.pwd}/features/images/"
+  config.logging = false
+end
