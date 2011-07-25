@@ -9,14 +9,18 @@ GEM
       json (>= 1.4.6)
       term-ansicolor (>= 1.0.5)
     diff-lcs (1.1.2)
+    gherkin (2.4.5)
+      json (>= 1.4.6)
     gherkin (2.4.5-java)
       json (>= 1.4.6)
+    json (1.5.3)
     json (1.5.3-java)
-    sikuli (0.1.0)
+    sikuli (0.1.2)
     term-ansicolor (1.0.6)
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   cucumber
