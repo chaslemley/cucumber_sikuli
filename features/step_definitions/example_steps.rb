@@ -8,5 +8,9 @@ When /^I type "([^"]*)"$/ do |text|
 end
 
 Then /^I should see "([^"]*)"$/ do |filename|
-  @screen.find(filename).highlight
+  @screen.find filename
+end
+
+Given /^I wait at least (\d+) seconds for "([^"]*)" to appear$/ do |time, filename|
+  @screen.wait filename, time.to_i
 end
