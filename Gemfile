@@ -1,4 +1,4 @@
 source :rubygems
 
 gem "cucumber"
-gem "sikuli", "~> 0.1.5"
+gem "sikuli", "~> 0.2.2"

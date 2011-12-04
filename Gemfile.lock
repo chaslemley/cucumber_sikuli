@@ -15,7 +15,7 @@ GEM
       json (>= 1.4.6)
     json (1.5.3)
     json (1.5.3-java)
-    sikuli (0.1.5)
+    sikuli (0.2.2)
     term-ansicolor (1.0.6)
 
 PLATFORMS
@@ -24,4 +24,4 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
-  sikuli
+  sikuli (~> 0.2.2)
